@@ -95,6 +95,7 @@ if post_elec == 3:
    auto_pers_startup()
    
    def auto_pers_startup
+                       
        pyautogui.write("sessions " + sessions +"")
        pyautogui.press("ENTER")
        pyautogui.write("cd C:\Users\practicas.ist\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
